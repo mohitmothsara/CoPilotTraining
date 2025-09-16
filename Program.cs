@@ -12,7 +12,7 @@ builder.Services.AddControllers();
 
 // Configure SQLite DbContext
 builder.Services.AddDbContext<AppDbContext>(options =>
-	options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection") ?? "Data Source=products.db"));
+    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection") ?? "Data Source=products.db"));
 
 // Register dependencies
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
@@ -22,8 +22,8 @@ builder.Services.AddScoped<IProductValidator, ProductValidator>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
-	options.SupportNonNullableReferenceTypes();
-	options.OperationFilter<CsvImportDemo.AddFileUploadOperationFilter>();
+    options.SupportNonNullableReferenceTypes();
+    options.OperationFilter<CsvImportDemo.AddFileUploadOperationFilter>();
 });
 
 var app = builder.Build();
@@ -31,8 +31,8 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-	app.UseSwagger();
-	app.UseSwaggerUI();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 // app.UseHttpsRedirection();

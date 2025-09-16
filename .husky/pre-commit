@@ -5,7 +5,7 @@ echo 'Building code'
 dotnet build CsvImportDemo.sln
 
 echo 'Formatting code'
-dotnet format CsvImportDemo.sln
+dotnet format CsvImportDemo.sln --verify-no-changes
 
 echo 'Run Test'
 dotnet test CsvImportDemo.sln

@@ -5,7 +5,7 @@ using CsvImportDemo.Validators; // Add this if IProductValidator is in Validator
 namespace CsvImportDemo.Services
 {
     // Implement ImportProductsFromCsv using CsvHelper: parse CSV into Product objects, call IProductValidator.Validate, and call IProductRepository.AddAsync for valid items, then SaveChangesAsync. Return count of saved records.
-    public class ProductService: IProductService
+    public class ProductService : IProductService
     {
         private readonly IProductValidator _validator;
         private readonly IProductRepository _repository;
