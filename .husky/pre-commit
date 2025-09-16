@@ -1,6 +1,6 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npm run lint
-dotnet format CsvImportDemo.sln
+
+dotnet format CsvImportDemo.sln --verify-no-changes
 npm run lint
