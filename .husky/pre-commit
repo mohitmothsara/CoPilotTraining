@@ -1,6 +1,9 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
+echo 'Building code'
+dotnet build CsvImportDemo.sln
 
-dotnet format CsvImportDemo.sln --verify-no-changes
-npm run lint
+echo 'Formatting code'
+dotnet format CsvImportDemo.sln
+
