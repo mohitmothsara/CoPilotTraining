@@ -16,7 +16,7 @@ namespace CsvImportDemo.Controllers
         [HttpPost("import-csv")]
         public async System.Threading.Tasks.Task<IActionResult> ImportCsv(Microsoft.AspNetCore.Http.IFormFile file)
         {
-            if (file == null || file.Length == 0)    return BadRequest("File is empty"); var savedCount = await _productService.ImportProductsFromCsvAndReturnCount(file);
+            if (file == null || file.Length == 0)                  return BadRequest("File is empty"); var savedCount = await _productService.ImportProductsFromCsvAndReturnCount(file);
             return Ok(new { SavedCount = savedCount });
         }
     }
