@@ -1,0 +1,15 @@
+{
+  "name": "csvimportdemo",
+  "version": "1.0.0",
+  "description": "CSV Import Demo with Husky hooks",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "husky": "^9.0.0",
+    "prettier": "^3.0.0",
+    "eslint": "^8.0.0"
+  }
+}

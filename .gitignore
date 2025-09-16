@@ -1,0 +1,11 @@
+# Ignore build output and dependencies
+obj/
+bin/
+node_modules/
+# Ignore user-specific files
+*.user
+*.suo
+*.DS_Store
+.vscode/
+# Ignore zip files
+*.zip
