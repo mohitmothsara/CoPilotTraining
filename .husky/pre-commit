@@ -7,3 +7,7 @@ dotnet build CsvImportDemo.sln
 echo 'Formatting code'
 dotnet format CsvImportDemo.sln
 
+echo 'Run Test'
+dotnet test CsvImportDemo.sln
+
+
