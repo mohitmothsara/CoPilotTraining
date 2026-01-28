@@ -1,5 +1,5 @@
 .swagger-ui .topbar-wrapper img[alt="Swagger UI"] {
-  content: url("https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg");
+  content: url("/swagger-ui/icons/dotnet.svg");
   width: 38px;
   height: 38px;
 }
@@ -22,13 +22,13 @@
 }
 
 .swagger-ui .info .title:before {
-  content: url("https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg");
+  content: url("/swagger-ui/icons/csharp.svg");
   width: 28px;
   height: 28px;
 }
 
 .swagger-ui .info .title:after {
-  content: url("https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg");
+  content: url("/swagger-ui/icons/sqlite.svg");
   width: 28px;
   height: 28px;
 }
