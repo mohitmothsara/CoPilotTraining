@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title-sqlite" role="img">
+  <title id="title-sqlite">SQLite database icon</title>
   <rect width="256" height="256" rx="56" fill="#003B57"/>
   <path d="M176 48H96c-13.3 0-24 10.7-24 24v112c0 13.3 10.7 24 24 24h64l40-40V72c0-13.3-10.7-24-24-24z" fill="#E4F0F5"/>
   <path d="M160 208V176c0-13.3 10.7-24 24-24h32" fill="none" stroke="#003B57" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>

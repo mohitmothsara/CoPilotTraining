@@ -1,7 +1,8 @@
 .swagger-ui .topbar-wrapper img[alt="Swagger UI"] {
-  content: url("/swagger-ui/icons/dotnet.svg");
+  display: inline-block;
   width: 38px;
   height: 38px;
+  background: url("/swagger-ui/icons/dotnet.svg") no-repeat center / contain;
 }
 
 .swagger-ui .topbar-wrapper .link span:after {
@@ -9,6 +10,7 @@
   font-weight: 600;
   margin-left: 6px;
   color: #4b5563;
+  display: inline-block;
 }
 
 .swagger-ui .topbar {
@@ -22,15 +24,19 @@
 }
 
 .swagger-ui .info .title:before {
-  content: url("/swagger-ui/icons/csharp.svg");
+  content: "";
+  display: inline-block;
   width: 28px;
   height: 28px;
+  background: url("/swagger-ui/icons/csharp.svg") no-repeat center / contain;
 }
 
 .swagger-ui .info .title:after {
-  content: url("/swagger-ui/icons/sqlite.svg");
+  content: "";
+  display: inline-block;
   width: 28px;
   height: 28px;
+  background: url("/swagger-ui/icons/sqlite.svg") no-repeat center / contain;
 }
 
 .swagger-ui .btn.execute {
@@ -45,5 +51,9 @@
 }
 
 .swagger-ui .opblock-tag:before {
-  content: "🔧";
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url("/swagger-ui/icons/dotnet.svg") no-repeat center / contain;
 }
